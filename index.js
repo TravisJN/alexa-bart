@@ -39,7 +39,7 @@ const LaunchRequestHandler = {
         return handlerInput.responseBuilder
             .speak(speechText)
             .reprompt(speechText)
-            .withSimpleCard('Open Houses Launch', speechText)
+            .withSimpleCard('Next Bart Launch', speechText)
             .getResponse();
     }
 };
